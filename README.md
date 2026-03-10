@@ -1,18 +1,20 @@
-**FloraGuide**is your AI-powered gardening assistant. This application leverages the advanced capabilities of **Gemini 3.1 Pro** to help you identify plants and provide expert care instructions.
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-### **Key Features:**
+# Run and deploy your AI Studio app
 
-- **Instant Plant Identification**: Snap a photo or upload an image to identify any plant. The AI provides the common name, scientific name, and a detailed description.
-- **Comprehensive Care Guides**: Get tailored advice on planting, watering schedules, and nutrient requirements.
-- **Edible Plant Support**: For edible plants, the app provides specific growth milestones and harvesting tips.
-- **Pest & Disease Management**: Learn about common issues for your specific plant, along with prevention and treatment strategies.
-- **AI Gardening Chatbot**: A dedicated chat interface where you can ask any gardening questions, from soil pH to seasonal pruning.
-- **Organic Design**: A warm, approachable interface designed with a "Garden Organic" aesthetic, making it easy to use while you're out in the dirt.
+This contains everything you need to run your app locally.
 
-### **How to use:**
+View your app in AI Studio: https://ai.studio/apps/93fd04cc-4667-4c71-a98b-e3591d12338e
 
-1. **Identify**: Click "Take Photo" or "Upload" on the home screen.
-2. **Learn**: Once identified, scroll through the detailed care sections.
-3. **Chat**: Click the message icon in the bottom right to ask the AI gardener specific questions about your plants.
+## Run Locally
 
-The app is fully responsive and ready for use on both desktop and mobile devices.
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`

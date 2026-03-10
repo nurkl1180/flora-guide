@@ -1,0 +1,5 @@
+{
+  "name": "FloraGuide: Your AI Gardening Assistant",
+  "description": "Identify plants, get expert care guides, and chat with an AI gardener to grow your perfect garden.",
+  "requestFramePermissions": ["camera"]
+}
